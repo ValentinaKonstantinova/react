@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    padding: 26px 162px 32px 168px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 8);
+}
+.HeaderLogo {
+    margin-right: 89px;
+}
+.HeaderRating {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.HeaderRating img {
+    position: absolute;
+    top: -26px;
+    left: 0;
+}
+.HeaderRatingBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12px;
+}
+.HeaderRatingBox img {
+
+}
