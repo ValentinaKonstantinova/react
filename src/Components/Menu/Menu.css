@@ -1,0 +1,25 @@
+menu{
+    width: 1105px;
+    margin: 20px auto 0 auto;
+}
+menu ul{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+}
+menu ul li, menu ul li a{
+    color: #FBFFFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+menu ul li {
+    list-style-type:none;
+}
+menu ul li a{
+    text-decoration: none;
+}

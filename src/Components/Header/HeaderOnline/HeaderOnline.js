@@ -3,7 +3,7 @@ import "./headerOnline.css";
 function HearedOnline() {
 return(
     <div className={"HeaderOnline"}>
-        <div className={"HeaderOnlineTitle"}>Мы онлайн</div>
+        <div className={"HeaderOnlineTitle"}><span></span>Мы онлайн</div>
         <div><img src={watsapp} alt=""/></div>
     </div>
 )

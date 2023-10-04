@@ -1,0 +1,36 @@
+.HeaderRecall{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    color: #D2D3D6;
+    font-family: Gilroy;
+    font-style: normal;
+}
+.HeaderRecallTime{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10.495px; /* 104.952% */
+}
+.HeaderRecallTime > span{
+    background-image: url("../img/dot.svg");
+    display: inline-block;
+    margin-right: 7px;
+    height: 4px;
+    width: 4px;
+}
+.HeaderRecallPhone{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.791px;
+    margin: 5px 0;
+}
+.HeaderRecallOrder >a {
+    color: #87BF3C;
+    font-size: 12.273px;
+    font-weight: 600;
+    line-height: 13.32px;
+    text-decoration: none;
+    border-bottom: 2px dashed #87BF3C;
+}

@@ -1,5 +1,5 @@
-import flag from "../../Images/Header/flag.svg";
-import rating from "../../Images/Header/rating.svg";
+import flag from "../img/flag.svg";
+import rating from "../img/rating.svg";
 import "./headerRating.css";
 
 function HeaderReating() {

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 60px;
+    margin-top:20px;
     color: white;
     align-items: flex-end;
 }
@@ -16,17 +16,15 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    margin-top: -10px;
     line-height: 45px;
     box-sizing: border-box;
 }
-.HeaderSendProjectBox button >span{
-    background-image: url("./img/calc.svg");
-    background-repeat: no-repeat;
+.HeaderSendProjectBox button >img{
     margin-left: 10px;
     width: 15px;
     height: 19px;
     display: inline-block;
+    vertical-align: middle;
 }
 .HeaderSendProjectBox > a{
     color: #96989F;
@@ -34,8 +32,9 @@
     font-size: 11px;
     font-style: normal;
     font-weight: 600;
-    line-height: 11.504px; /* 104.585% */
+    line-height: 11.504px;
     text-decoration-line: underline;
+    margin-top: 5px;
 }
 .HeaderSendProjectBox > a >span{
     background-image: url("./img/email.svg");
@@ -43,6 +42,6 @@
     width: 10px;
     height: 7px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-top: 10px;
 }
